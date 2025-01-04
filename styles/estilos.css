@@ -54,13 +54,17 @@ body {
 }
 
 .hero__cta {
-    color: var(--primary-color-light-pink);
+    color: var(--primary-color-pink);
     border: 2px solid;
     padding: .3em 1em;
     border-radius: 2em;
     font-weight: 600;
     text-decoration: none;
     box-shadow: 0 0 1px var(--shadow-dark-cyan);
+}
+
+.hero__cta:hover {
+    color: var(--primary-color-light-pink);
 }
 
 .hero__main {
@@ -95,6 +99,10 @@ body {
     margin-top: 1em;
     font-weight: 600;
     box-shadow: -5px 8px 16px -10px var(--shadow-dark-cyan);
+}
+
+.cta:hover {
+    background-color: var(--primary-color-light-pink);
 }
 
 .hero__picture {
@@ -229,7 +237,26 @@ body {
     border-radius: 3px;
     outline: none;
     padding: 1em .3em;
-    margin-bottom: 1em;
+}
+
+.footer__input:invalid:focus {
+    border: 1px solid red;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.7rem;
+    display: none;
+    font-weight: 700;
+    margin-top: 0.5em;
+}
+
+.footer__input:invalid:focus ~ .error-message {
+    display: block;
+}
+
+.footer__input:valid:focus ~ .error-message {
+    display: none;
 }
 
 .footer__cta {
@@ -241,6 +268,15 @@ body {
     border-radius: 4px;
     font-weight: 600;
     margin-left: auto;
+    margin-top: 1em;
+}
+
+.footer__cta:hover {
+    background-color: var(--primary-color-pink);
+}
+
+.footer__cta:hover {
+    background-color: var(--primary-color-light-pink);
 }
 
 .footer__contact {
@@ -266,7 +302,7 @@ body {
 .footer__social {
     display: grid;
     grid-auto-flow: column;
-    grid-auto-columns: 40px;
+    grid-auto-columns: 50px;
     gap: 1em;
 }
 
@@ -276,7 +312,12 @@ body {
 
 .footer__icon {
     display: block;
+    fill: #fff;
     width: 100%;
+}
+
+.footer__icon:hover {
+    fill: rgb(42, 149, 191);
 }
 
 .attribution {
