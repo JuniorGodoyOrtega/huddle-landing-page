@@ -295,7 +295,7 @@ body {
 
 @media (min-width: 768px) {
     .hero {
-        --wave-bottom: url('../img/bg-section-top-desktop-1.sv'g);
+        --wave-bottom: url('../img/bg-section-top-desktop-1.svg');
     }
 
     .hero__main {
