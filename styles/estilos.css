@@ -33,7 +33,7 @@ body {
 .hero {
     min-height: 100vh;
     position: relative;
-    --wave-bottom: url('./img/bg-section-top-mobile-1.svg');
+    --wave-bottom: url('../img/bg-section-top-mobile-1.svg');
 }
 
 .hero__nav {
@@ -166,8 +166,8 @@ body {
     --padding-container: 13rem 0;
     position: relative;
     background-color: #fff;
-    --wave-top: url('./img/bg-section-bottom-mobile-1.svg');
-    --wave-bottom: url('./img/bg-section-top-mobile-2.svg');
+    --wave-top: url('../img/bg-section-bottom-mobile-1.svg');
+    --wave-bottom: url('../img/bg-section-top-mobile-2.svg');
 }
 
 .section__img {
@@ -190,8 +190,8 @@ body {
 .question {
     position: relative;
     text-align: center;
-    --wave-top: url('./img/bg-section-bottom-mobile-2.svg');
-    --wave-bottom: url('./img/bg-footer-top-mobile.svg');
+    --wave-top: url('../img/bg-section-bottom-mobile-2.svg');
+    --wave-bottom: url('../img/bg-footer-top-mobile.svg');
     --padding-container: 12rem 0 13rem;
 }
 
@@ -295,7 +295,7 @@ body {
 
 @media (min-width: 768px) {
     .hero {
-        --wave-bottom: url('./img/bg-section-top-desktop-1.sv'g);
+        --wave-bottom: url('../img/bg-section-top-desktop-1.sv'g);
     }
 
     .hero__main {
@@ -326,8 +326,8 @@ body {
 
     /* Section */
     .section--white {
-        --wave-top: url('./img/bg-section-bottom-desktop-2.svg');
-        --wave-bottom: url('./img/bg-section-top-desktop-1.svg');
+        --wave-top: url('../img/bg-section-bottom-desktop-2.svg');
+        --wave-bottom: url('../img/bg-section-top-desktop-1.svg');
     }
 
     .section__container {
@@ -351,8 +351,8 @@ body {
     }
 
     .question {
-        --wave-top: url('./img/bg-section-bottom-desktop-1.svg');
-        --wave-bottom: url('./img/bg-footer-top-desktop.svg');
+        --wave-top: url('../img/bg-section-bottom-desktop-1.svg');
+        --wave-bottom: url('../img/bg-footer-top-desktop.svg');
         --padding-container: 12rem 0 13rem;
     }
 
