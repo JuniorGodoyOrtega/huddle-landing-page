@@ -230,11 +230,6 @@ body {
     margin-bottom: 5em;
 }
 
-.visually-hidden{
-    position: absolute;
-    display: none;
-}
-
 .footer__input {
     flex: 100%;
     font-size: 1rem;
